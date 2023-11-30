@@ -1,0 +1,35 @@
+.menu-container {
+    display: flex;
+    justify-content:space-between;
+    gap:5rem;
+    flex:1;
+}
+.Logo-c {
+   margin-left: 4rem;
+   padding-top: 1rem;
+}
+.left-menu {
+    display: flex;
+    justify-content:space-between;
+    gap:5rem;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-right:4rem
+}
+.home >  {
+    font-size: medium;
+}
+.menu-list {
+    gap:5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact-button {
+    border-radius: 25px;
+    border: 2px solid #FFDD1E;
+    width: 120px;
+    height: 44px;
+    margin-top: -10px;
+}

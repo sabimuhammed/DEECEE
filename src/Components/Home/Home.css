@@ -1,0 +1,101 @@
+.Home-c {
+  display: flex;
+  /* overflow: hidden; */
+  position:relative;
+  justify-content:space-evenly;
+  background: linear-gradient(90deg, rgba(15,11,85,1) 0%, rgba(31,31,149,1) 33%, rgba(20,35,149,1) 73%, rgba(14,34,136,1) 100%);
+  z-index: -200;
+}
+.background {
+  width: 100vw;
+}
+.stripe {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  left: 75rem;
+  z-index: -100;
+  top:5px
+}
+.tri-1 {
+    position: relative;
+    left:25rem;
+    z-index: -150;
+    
+}
+.tri-2 {
+    right:10rem;
+    z-index: -50;
+    margin-top: 5px;
+}
+.student {
+  display: flex;
+  position: absolute;
+  top: 3rem;
+  left: 90rem;
+  z-index: 100;
+}
+.student :nth-of-type(1) {
+  width: 329px;
+  height: 441px;
+}
+.texts {
+    color :white;
+    display: flex;
+    flex-direction: column;
+    margin-left:5rem;
+    margin-top:5rem;
+    line-height: 3rem;
+
+
+}
+
+#yellow {
+    color:#F9CE20;
+}
+.texts > :nth-of-type(1){
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.texts > :nth-of-type(2){
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.texts > :nth-of-type(3){
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.texts > :nth-of-type(4){
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size:60px;
+}
+.ticks {
+    display: inline-block;
+    position: relative;
+    gap:2rem;
+}
+.ticks > :nth-of-type(1) {
+    padding-right: 4rem;
+}
+.ticks :nth-of-type(2){
+    padding-right: 4rem;
+    
+}
+.ticks :nth-of-type(3){
+    padding-right: 4rem;
+    line-height: 5rem;
+    
+}
+.ticks :nth-of-type(4){
+    padding-right: 2.5rem;
+    
+}
+.ticks :nth-of-type(5){
+    padding-right: 3rem;
+    
+}
+
